@@ -1,0 +1,5 @@
+version: 1.0
+workflows:
+  - subclass: WDL
+    primaryDescriptorPath: /plink_relatedness.wdl
+    name: plink_relatedness

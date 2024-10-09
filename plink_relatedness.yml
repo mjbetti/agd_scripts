@@ -1,0 +1,6 @@
+  version: 0.1
+  workflows:
+  name: plink_relatedness
+    subclass: WDL
+    primaryDescriptorPath: /plink_relatedness.wdl
+    testParameterFiles:
